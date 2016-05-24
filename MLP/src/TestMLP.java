@@ -8,7 +8,7 @@ class TestMLP {
 		DataLoader dt = new DataLoader("ann-train.data");
 		
 		dt.undersampling();
-		dt.duplication();
+		//dt.duplication();
 		dt.normalization();
 		inputReader(dt);
 		MLP learner = new MLP();
